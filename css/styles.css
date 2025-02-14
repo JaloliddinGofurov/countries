@@ -175,6 +175,16 @@ a {
   color: var(--text-color);
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
 }
+.filters-search-wrapper {
+  position: relative;
+}
+.filters-search-icon {
+  position: absolute;
+  left: 32px;
+  top: 19px;
+  color: var(--text-color);
+  pointer-events: none;
+}
 .filters-region-select {
   min-width: 200px;
   padding: 18px 24px;
